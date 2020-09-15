@@ -18,12 +18,12 @@ This Docker Container use TR-064 protocol and should work with FritzOs greater t
 ## Contributing
 If you find this image helpfull, so you can see here how you can help:
 - Create an new branch and send a pull request with your features and bug fixes
-- Help users resolve their [issues](https://github.com/QuadStingray/fritzbox-rebooter-docker/issues).
+- Help users resolve their [issues](https://github.com/QuadStingray/docker-fritzbox-rebooter/issues).
 
 ## Issues
 Before reporting your issue please try updating Docker to the latest version and check if it resolves the issue. Refer to the Docker [installation guide](https://docs.docker.com/installation) for instructions.
 
-If that recommendations do not help then [report your issue](https://github.com/QuadStingray/fritzbox-rebooter-docker/issues/new) along with the following information:
+If that recommendations do not help then [report your issue](https://github.com/QuadStingray/docker-fritzbox-rebooter/issues/new) along with the following information:
 
 - Output of the `docker version` and `docker info` commands
 - The `docker run` command or `docker-compose.yml` used to start the
