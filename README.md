@@ -35,17 +35,17 @@ Automated builds of the image are available on
 [Dockerhub](https://hub.docker.com/r/quadstingray/fritzbox-rebooter/)
 
 ```bash
-docker pull fritzbox-rebooter:1.0.0
+docker pull quadstingray/fritzbox-rebooter:1.0.0
 ```
 
 Alternatively you can build the image yourself.
 ```bash
-docker build . --tag 'fritzbox-rebooter:dev';
+docker build . --tag 'quadstingray/fritzbox-rebooter:dev';
 ```
 
 ## Quickstart
 ```bash
-docker run -e "FRITZ_USER=myUserName" -e "FRITZ_PW=password" fritzbox-rebooter:1.0.0
+docker run -e "FRITZ_USER=myUserName" -e "FRITZ_PW=password" quadstingray/fritzbox-rebooter:1.0.0
 ```
 
 ## Environment Variables
