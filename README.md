@@ -57,7 +57,7 @@ docker run -e "FRITZ_USER=myUserName" -e "FRITZ_PW=password" quadstingray/fritzo
 | FRITZ_USER    | admin                        | Username of your Fritzbox Account                                        |
 | FRITZ_PW      | FritzBoxUserPassword         | Password of your Fritzbox Account                                        |
 | LOGGING       | true                         | Enable Logging to `/var/log/fritzbox/`                                   |
-| TZ.           | UTC                          | You can set you local Timezone like `Europe/Berlin`                      |
+| TZ            | UTC                          | You can set you local Timezone like `Europe/Berlin`                      |
 
 # Additional Links
 * http://fritz.box:49000/tr64desc.xml
