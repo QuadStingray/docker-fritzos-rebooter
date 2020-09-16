@@ -35,7 +35,7 @@ Automated builds of the image are available on
 [Dockerhub](https://hub.docker.com/r/quadstingray/fritzos-rebooter/)
 
 ```bash
-docker pull quadstingray/fritzos-rebooter:1.0.0
+docker pull quadstingray/fritzos-rebooter:1.0.1
 ```
 
 Alternatively you can build the image yourself.
@@ -45,7 +45,7 @@ docker build . --tag 'quadstingray/fritzos-rebooter:dev';
 
 ## Quickstart
 ```bash
-docker run -e "FRITZ_USER=myUserName" -e "FRITZ_PW=password" quadstingray/fritzos-rebooter:1.0.0
+docker run -e "FRITZ_USER=myUserName" -e "FRITZ_PW=password" quadstingray/fritzos-rebooter:1.0.1
 ```
 
 ## Environment Variables
