@@ -8,6 +8,6 @@ ENV FRITZ_USER "admin"
 ENV FRITZ_PW "FritzBoxUserPassword"
 ENV LOGGING "true"
 
-RUN apk update && apk add bash curl
+RUN apk update && apk add --no-cache bash curl tzdata
 
 ENTRYPOINT "scripts/entrypoint.sh"
