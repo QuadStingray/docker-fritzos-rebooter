@@ -53,9 +53,9 @@ docker run -e "FRITZ_USER=myUserName" -e "FRITZ_PW=password" quadstingray/fritzo
 | Variable      | Default Value                | Informations                                                             |
 |:--------------|:-----------------------------|:-------------------------------------------------------------------------|
 | CRONS_LINES   | 30 6 * * *\|15 18 * * *      | Cron Lines seperated by `\|` Default: Rebooting at 6:30am and 6:30pm     |
-| FRITZ_IPS     | 192.168.178.1                | IPs of Fritzboxes you want to reboot, also separated by ` \|`            |
-| FRITZ_USER    | admin                        | Username of your Fritzbox Account                                        |
-| FRITZ_PW      | FritzBoxUserPassword         | Password of your Fritzbox Account                                        |
+| FRITZ_IPS     | 192.168.178.1                | IPs of FritzOs Devices you want to reboot, also separated by ` \|`       |
+| FRITZ_USER    | admin                        | Username of your FritzOs Device Account                                  |
+| FRITZ_PW      | FritzBoxUserPassword         | Password of your FritzOs Device Account                                  |
 | LOGGING       | true                         | Enable Logging to `/var/log/fritzbox/`                                   |
 | TZ            | UTC                          | You can set you local Timezone like `Europe/Berlin`                      |
 
