@@ -2,6 +2,8 @@
 
 IFS='|' read -r -a cronLinesArray <<< "$CRONS_LINES"
 
+crontab -r
+
 for index in "${!cronLinesArray[@]}"
 do
     if [ "$LOGGING" = "true" ] || [ "$LOGGING" = "TRUE" ]; then
